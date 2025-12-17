@@ -30,7 +30,7 @@ int gcdRecursive(int a, int b) {
 // LCM using GCD
 int lcm(int a, int b) {
     if (a == 0 || b == 0) return 0;
-    return abs(a * b) / gcdIterative(a, b);
+    return (abs(a) / gcdIterative(a, b)) * abs(b);
 }
 
 int main() {

@@ -53,7 +53,7 @@ def lcm(a, b):
     """
     if a == 0 or b == 0:
         return 0
-    return abs(a * b) // gcd_iterative(a, b)
+    return (abs(a) // gcd_iterative(a, b)) * abs(b)
 
 if __name__ == "__main__":
     a, b = 48, 18
