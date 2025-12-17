@@ -1,4 +1,4 @@
-# Basic Algorithms Collection
+# Basic Algorithms Collection - 2025.12.17
 
 A comprehensive collection of fundamental algorithms implemented in both **C++** and **Python**. This repository serves as a reference for common algorithms used in computer science and software development.
 
